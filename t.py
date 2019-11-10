@@ -1,7 +1,7 @@
 import googlemaps
 import re
 
-client = googlemaps.Client("AIzaSyAdis3Ww-4VVS-K8fq1CEF-VmD-JsQiBsA")
+client = googlemaps.Client("Your API key")
 #print(client.directions("Pune", "Mumbai")[0]['legs'][0]['steps'][0]['html_instructions'])
 #print(re.findall('<b>[\w,-]+</b>', client.directions("Pune", 
 #"Mumbai")[0]['legs'][0]['steps'][0]['html_instructions'])[0].replace('<b>', "").replace('</b>', ''))
