@@ -15,7 +15,7 @@ def close_escape(event=None):
     print("escaped")
     window.destroy()
 
-client = googlemaps.Client("AIzaSyAdis3Ww-4VVS-K8fq1CEF-VmD-JsQiBsA")
+client = googlemaps.Client("Your API key")
 firebase = firebase.FirebaseApplication('https://vehnavi.firebaseio.com/')
 
 dest = firebase.get('/Location',None)
